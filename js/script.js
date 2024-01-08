@@ -12,7 +12,7 @@ let i = 0;
 // }
 
 while (i < shoppingList.length) {
-    elementList += `<li>${shoppingList[i]}</li>`
+    elementList += `<li><input type="checkbox"><label for="vehicle1">${shoppingList[i]}</label></li>`
     i++
 }
 mailList += `${elementList}</ul>`;
